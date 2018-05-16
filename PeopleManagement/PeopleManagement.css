@@ -1,0 +1,82 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    margin-top:40px;
+    border: 2px solid rgb(154, 1, 168);
+    background:rgba(0, 233, 221, 0.726);
+    padding:10px;
+}
+
+h1{
+    margin:10px 500px;
+  
+}
+
+input{
+    height:25px;
+    margin-bottom:5px;
+    padding-left:5px;
+}
+
+select{
+    height:30px;
+}
+
+label{
+    font-size:20px;
+}
+
+table{
+    margin-top:40px;
+    border-color: rgb(0, 112, 107);
+    background:rgba(0, 233, 221, 0.897);
+    color: rgba(0, 0, 0, 0.774);
+    border-collapse: collapse;
+    border: 2px solid rgb(154, 1, 168);
+    font-size:18px;
+}
+
+td{
+    padding:8px;
+}
+
+th{
+    padding:8px;
+}
+
+
+.main{
+   display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#btn{
+    width:150px;
+    height:30px;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.26);
+    margin-top:10px;
+    background: rgb(56, 56, 56);
+    color: white;
+}
+
+#btn:hover{
+    background: rgb(146, 0, 151);
+    cursor:pointer;
+    border: 1px solid rgb(127, 2, 131);
+}
+
+
+.visible{
+    visibility: hidden;
+    border:1px solid rgb(127, 2, 131);
+}
+
